@@ -2,5 +2,17 @@
 {
     "editor.fontFamily": "Source Code Pro Semibold",
     "editor.fontSize": 15,
-    "editor.lineHeight": 24
+    "editor.lineHeight": 24,
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "mssql.connections": [
+        {
+            "authenticationType": "SqlLogin",
+            "server": "192.168.1.4",
+            "database": "EIPAccraditationTemp",
+            "user": "sa",
+            "password": "",
+            "savePassword": true
+        }
+    ]
 }
