@@ -13,6 +13,24 @@
             "user": "sa",
             "password": "",
             "savePassword": true
+        },
+        {
+            "server": ".",
+            "database": "DbPy",
+            "authenticationType": "Integrated",
+            "profileName": "sa",
+            "password": ""
         }
     ]
+    ,
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.minimap.enabled": true,
+    "editor.dragAndDrop": true,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    }
 }
