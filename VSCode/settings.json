@@ -5,32 +5,23 @@
     "editor.lineHeight": 24,
     "workbench.sideBar.location": "left",
     "workbench.statusBar.visible": true,
-    "mssql.connections": [
-        {
-            "authenticationType": "SqlLogin",
-            "server": "192.168.1.4",
-            "database": "EIPAccraditationTemp",
-            "user": "sa",
-            "password": "",
-            "savePassword": true
-        },
-        {
-            "server": ".",
-            "database": "DbPy",
-            "authenticationType": "Integrated",
-            "profileName": "sa",
-            "password": ""
-        }
-    ]
-    ,
-    "workbench.colorTheme": "Monokai",
-    "workbench.iconTheme": "vscode-icons",
     "editor.minimap.enabled": true,
     "editor.dragAndDrop": true,
-    "[cpp]": {
-        "editor.quickSuggestions": false
+    "files.autoSave": "off",
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#da6dfc",
+        "tab.activeBackground": "#237eff",
+        "editor.selectionBackground": "#f381c7",
+        "editor.selectionForeground": "#311bac",
+        "editor.selectionHighlightBackground": "#ca038e"
     },
-    "[c]": {
-        "editor.quickSuggestions": false
-    }
+    "typescript.check.npmIsInstalled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "FlatUI Immersed",
+    "workbench.activityBar.visible": true,
+    "vsicons.presets.hideExplorerArrows": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "search.smartCase": true,
+    "workbench.list.openMode": "doubleClick"
 }
